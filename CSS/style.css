@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 13px;
+    font-weight: 350;
+    line-height: 1.5;
+
+}
+  
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.ubuntu-regular-italic {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.ubuntu-bold {
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* columnas */
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+/* para adaptar a móvil */
+@media screen and (width<=768px){
+    [class*="col-"]{
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    height: 100vh;
+    background-color: #333;
+    flex-direction: column;
+}
+
+.ebook{
+    margin-top: 200px;
+}
+
+.row-centrado{
+    margin: auto;
+}
+
+.espacio-xy{
+    padding: 100px;
+}
+
+.espacio-xy-50{
+    padding: 50px;
+}
+
+.h1-header{
+    font-size: 40px!important;
+    font-weight: 400;
+}
+
+.texto-1{
+    font-size: 20px!important;
+    font-weight: 100;
+    
+
+}
+
+.h1-header,.texto-1{
+    color: white;
+}  
+
+.boton{
+    background-color: #3EAF63;
+    color: white;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 25px;
+    border: none;
+
+}
+
+.margen-top-200{
+    margin-top: 200px;
+
+}
+
+.h2-negro{
+    font-size: 36px;
+    line-height: 1;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.texto-2,.texto-3{
+    color: #4d4d4d;
+    text-align: center;
+}
+
+.texto-2,.h3-negro{
+    font-size: 18px;
+    line-height: 24px;
+}
+.h3-negro{
+    color: black;
+    font-weight: 400;
+    
+
+}
+.espacio-xy-25{
+    padding: 25px;
+}
+
+.texto-3{
+    font-size: 15px;
+}
+
+.margen-top-100{
+    margin-top: 100px;
+}
+
+.texto-centrado{
+    text-align: center;
+}
+
+.simbolos{
+    color: #3EAF63;
+    font-size: 75px;
+    font-weight: 250;
+    
+}
+
+.margen-top-50{
+    margin-top: 50px;
+}
+
+.margen-top-70{
+    margin-top: 70px;
+}
+
+.color-gris{
+    border: 0.25px solid rgb(240, 240, 240);
+}
+
+.row-columna{
+    flex-direction: column;
+}
+
+.efecto-subir:hover{
+    margin-bottom: 10px;
+
+}
+.efecto:hover{
+    transform: translate(0,-5px);
+}
+
+.color-gris-menos{
+    background-color: #f0f0f0;
+}
+
+.alto-600{
+    height: 600px;
+}
+
+.img-autor{
+    max-height: 600px;
+}
+
+
+
+
